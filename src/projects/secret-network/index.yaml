@@ -8,6 +8,12 @@ tokens:
     contract_address: secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek
 description: 'the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3'
 project_type: Infrastructure
+team:
+  - name: Alex Zaidelson
+    role: CEO - Secret Labs
+  - name: Lisa Loud
+    role: CEO - Secret Foundation
+ecosystem: Cosmos
 product_launch_day: "2020-02-13"
 technology:
   type: TEE
@@ -30,6 +36,7 @@ links:
   forum: https://forum.scrt.network/
 blockchain_features:
   p2p: false
+  KYC: false
   encryption: TEE
   upgradability:
     enabled: true
@@ -37,7 +44,11 @@ blockchain_features:
   opensource: true
   viewing_key: true
   dissapearing_tx: false
+  frontend_anonymity: options
   connected_tx: true
+  revealed_recipient: false
+  revealed_sender: true
+  revealed_amount: false
   reversability_condition: viewing key, hack
   data_masking: Secret Contracts
   asset_custody_type: non-custody
